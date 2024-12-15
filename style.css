@@ -1,0 +1,126 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: url('https://wallpaperaccess.com/full/3414987.jpg') no-repeat center center fixed; /* Background image */
+    background-size: cover; /* Ensure the image covers the entire viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  /* Container Styles */
+  .container {
+    width: 100%;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0); /* Transparent white background */
+    padding: 20px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(5px); /* Adds a slight blur to the background */
+  }
+  
+  /* Header */
+  header h1 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 5px;
+  }
+  
+  header p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Search Box */
+  .search-box {
+    margin-top: 20px;
+  }
+  
+  .input-field {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+    transition: all 0.3s;
+  }
+  
+  .input-field:focus {
+    border-color: #007bff;
+  }
+  
+  .search-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* User Details */
+  .user-details {
+    margin-top: 30px;
+  }
+  
+  .card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card h2 {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .card p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .card a:hover {
+    background-color: #0056b3;
+  }
+  
